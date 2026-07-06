@@ -1,0 +1,25 @@
+Clear
+
+Set DefaultBaseFrequency=50
+
+New Circuit.VVC_02_Medium_2PV basekv=12.47 pu=1.0 phases=3 bus1=sourcebus
+
+New Line.L1 bus1=sourcebus.1.2.3 bus2=bus1.1.2.3 phases=3 length=2 units=km r1=0.5 x1=0.8 r0=1.0 x0=2.4 c1=0 c0=0
+New Line.L2 bus1=bus1.1.2.3      bus2=bus2.1.2.3 phases=3 length=2 units=km r1=0.5 x1=0.8 r0=1.0 x0=2.4 c1=0 c0=0
+New Line.L3 bus1=bus2.1.2.3      bus2=bus3.1.2.3 phases=3 length=2 units=km r1=0.5 x1=0.8 r0=1.0 x0=2.4 c1=0 c0=0
+New Line.L4 bus1=bus3.1.2.3      bus2=bus4.1.2.3 phases=3 length=2 units=km r1=0.5 x1=0.8 r0=1.0 x0=2.4 c1=0 c0=0
+New Line.L5 bus1=bus4.1.2.3      bus2=bus5.1.2.3 phases=3 length=2 units=km r1=0.5 x1=0.8 r0=1.0 x0=2.4 c1=0 c0=0
+
+New Load.Load1 bus1=bus1.1.2.3 phases=3 kV=12.47 kW=200 kvar=100 model=1
+New Load.Load2 bus1=bus2.1.2.3 phases=3 kV=12.47 kW=300 kvar=150 model=1
+New Load.Load3 bus1=bus3.1.2.3 phases=3 kV=12.47 kW=250 kvar=125 model=1
+New Load.Load4 bus1=bus4.1.2.3 phases=3 kV=12.47 kW=300 kvar=150 model=1
+New Load.Load5 bus1=bus5.1.2.3 phases=3 kV=12.47 kW=200 kvar=100 model=1
+
+New PVSystem.PV1 bus1=bus3.1.2.3 phases=3 kV=12.47 kVA=3000 Pmpp=2400 irradiance=1 kvar=0
+New PVSystem.PV2 bus1=bus5.1.2.3 phases=3 kV=12.47 kVA=3000 Pmpp=2400 irradiance=1 kvar=0
+
+Set voltagebases=[12.47]
+CalcVoltageBases
+
+Solve

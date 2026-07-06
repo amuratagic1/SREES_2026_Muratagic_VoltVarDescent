@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<DevRes>
+	<Translations>
+		<Res id="appTitle"                  tr="Volt-VAR Descent"/>
+		<Res id="tabNetwork"                tr="Mreža"/>
+		<Res id="tabSolver"                 tr="Solver"/>
+
+		<Res id="welcomeTitle"              tr="Učitajte mrežu za početak"/>
+		<Res id="welcomeSubtitle"           tr="Pokrenite Volt-VAR kontrolu na distributivnim vodovima pomoću gradijentnog spusta.&#10;Počnite od nule, otvorite vlastiti OpenDSS model ili odaberite ugrađeni primjer."/>
+
+		<Res id="btnStartScratch"           tr="Počni od nule"/>
+		<Res id="btnOpenDss"                tr="Otvori .dss datoteku"/>
+		<Res id="btnChooseExample"          tr="Odaberi primjer"/>
+
+		<Res id="dlgChooseExample"          tr="Odaberi primjer"/>
+		<Res id="btnCancel"                 tr="Odustani"/>
+		<Res id="exPickerHint"              tr="Odaberite testni feeder za učitavanje u editor."/>
+		<Res id="exSimple"                  tr="Jednostavan — 1 PV"/>
+		<Res id="exMedium"                  tr="Srednji — 2 PV"/>
+		<Res id="exComplex"                 tr="Kompleksan — 3 PV"/>
+
+		<Res id="btnLoad"                   tr="Učitaj"/>
+		<Res id="btnSave"                   tr="Sačuvaj"/>
+		<Res id="openDssScript"             tr="Otvori DSS skriptu"/>
+		<Res id="saveDssScript"             tr="Sačuvaj DSS skriptu"/>
+
+		<Res id="networkSummary"            tr="SAŽETAK MREŽE"/>
+		<Res id="btnValidate"               tr="Validiraj"/>
+		<Res id="btnValidated"              tr="VALIDIRANO"/>
+		<Res id="summaryBuses"              tr="Sabirnice"/>
+		<Res id="summaryNodes"              tr="Čvorovi"/>
+		<Res id="summaryLines"              tr="Vodovi"/>
+		<Res id="summaryLoads"              tr="Opterećenja"/>
+		<Res id="summaryTransformers"       tr="Transformatori"/>
+		<Res id="summaryCapacitors"         tr="Kondenzatori"/>
+		<Res id="summaryGenerators"         tr="Generatori"/>
+		<Res id="summaryPVSystems"          tr="PV sistemi"/>
+		<Res id="summaryElements"           tr="Elementi"/>
+		<Res id="summaryNA"                 tr="—"/>
+		<Res id="errPrefix"                 tr="Greška:"/>
+
+		<Res id="lblAlgorithm"              tr="Algoritam"/>
+		<Res id="lblCostFn"                 tr="Funkcija troška"/>
+		<Res id="lblMaxIter"                tr="Maks. iteracija"/>
+		<Res id="lblLearningRate"           tr="Brzina učenja"/>
+		<Res id="lblMaxStep"                tr="Maks. korak Q (kvar)"/>
+		<Res id="lblEpsilon"                tr="Korak gradijenta (kvar)"/>
+		<Res id="lblQMax"                   tr="Limit Q (kvar)"/>
+		<Res id="lblTol"                    tr="Tol. konvergencije (kvar)"/>
+		<Res id="btnRunSolver"              tr="Pokreni solver"/>
+		<Res id="algVanillaGD"              tr="Vanilla GD"/>
+		<Res id="algAdaptiveGD"             tr="Adaptivni GD (uskoro)"/>
+		<Res id="algMomentum"               tr="Momentum (uskoro)"/>
+		<Res id="costVoltageDev"            tr="Odstupanje napona"/>
+		<Res id="costPowerLoss"             tr="Gubitak snage (uskoro)"/>
+		<Res id="costVoltLimit"             tr="Kršenje granica napona (uskoro)"/>
+		<Res id="costReactivePenalty"       tr="Penalizacija reaktivne snage (uskoro)"/>
+
+		<Res id="solverNotValidated"        tr="Mreža nije validirana. Validirajte je u kartici Mreža prije pokretanja solvera."/>
+		<Res id="noDssScript"               tr="Nema učitane DSS skripte."/>
+		<Res id="circuitLoadError"          tr="Greška učitavanja mreže:"/>
+		<Res id="noPvSystems"               tr="Nema PV sistema u mreži."/>
+
+		<Res id="btnShowPlot"               tr="Prikaži grafikon"/>
+		<Res id="btnShowText"               tr="Prikaži tekst"/>
+		<Res id="plotIterAxis"              tr="Iteracija"/>
+		<Res id="plotQAxis"                 tr="Q (kvar)"/>
+
+		<Res id="logBus"                    tr="Sabirnica"/>
+		<Res id="logVPu"                    tr="V (p.j.)"/>
+		<Res id="logStatus"                 tr="Status"/>
+		<Res id="logHigh"                   tr="VISOKO"/>
+		<Res id="logLow"                    tr="NIZKO"/>
+		<Res id="logOptimization"           tr="Optimizacija"/>
+		<Res id="logIter"                   tr="Iter"/>
+		<Res id="logCost"                   tr="Trošak"/>
+		<Res id="logInitialVoltages"        tr="Početni naponi (Q = 0 kvar)"/>
+		<Res id="logFinalVoltages"          tr="Završni naponi"/>
+		<Res id="logConverged"              tr="Konvergirano nakon iteracije"/>
+		<Res id="logDssError"               tr="DSS greška:"/>
+	</Translations>
+</DevRes>

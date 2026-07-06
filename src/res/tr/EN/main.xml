@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<DevRes>
+	<Translations>
+		<Res id="appTitle"                  tr="Volt-VAR Descent"/>
+		<Res id="tabNetwork"                tr="Network"/>
+		<Res id="tabSolver"                 tr="Solver"/>
+
+		<Res id="welcomeTitle"              tr="Load a network to begin"/>
+		<Res id="welcomeSubtitle"           tr="Run Volt-VAR control on distribution feeders by gradient descent.&#10;Start from scratch, open your own OpenDSS model, or pick a built-in example."/>
+
+		<Res id="btnStartScratch"           tr="Start from scratch"/>
+		<Res id="btnOpenDss"                tr="Open a .dss file"/>
+		<Res id="btnChooseExample"          tr="Choose example"/>
+
+		<Res id="dlgChooseExample"          tr="Choose an Example"/>
+		<Res id="btnCancel"                 tr="Cancel"/>
+		<Res id="exPickerHint"              tr="Select a test feeder to load into the editor."/>
+		<Res id="exSimple"                  tr="Simple — 1 PV"/>
+		<Res id="exMedium"                  tr="Medium — 2 PV"/>
+		<Res id="exComplex"                 tr="Complex — 3 PV"/>
+
+		<Res id="btnLoad"                   tr="Load"/>
+		<Res id="btnSave"                   tr="Save"/>
+		<Res id="openDssScript"             tr="Open DSS Script"/>
+		<Res id="saveDssScript"             tr="Save DSS Script"/>
+
+		<Res id="networkSummary"            tr="NETWORK SUMMARY"/>
+		<Res id="btnValidate"               tr="Validate"/>
+		<Res id="btnValidated"              tr="VALIDATED"/>
+		<Res id="summaryBuses"              tr="Buses"/>
+		<Res id="summaryNodes"              tr="Nodes"/>
+		<Res id="summaryLines"              tr="Lines"/>
+		<Res id="summaryLoads"              tr="Loads"/>
+		<Res id="summaryTransformers"       tr="Transformers"/>
+		<Res id="summaryCapacitors"         tr="Capacitors"/>
+		<Res id="summaryGenerators"         tr="Generators"/>
+		<Res id="summaryPVSystems"          tr="PV Systems"/>
+		<Res id="summaryElements"           tr="Elements"/>
+		<Res id="summaryNA"                 tr="—"/>
+		<Res id="errPrefix"                 tr="Error:"/>
+
+		<Res id="lblAlgorithm"              tr="Algorithm"/>
+		<Res id="lblCostFn"                 tr="Cost Function"/>
+		<Res id="lblMaxIter"                tr="Max Iterations"/>
+		<Res id="lblLearningRate"           tr="Learning Rate"/>
+		<Res id="lblMaxStep"                tr="Max Q Step (kvar)"/>
+		<Res id="lblEpsilon"                tr="Gradient Step (kvar)"/>
+		<Res id="lblQMax"                   tr="Q Limit (kvar)"/>
+		<Res id="lblTol"                    tr="Convergence Tol (kvar)"/>
+		<Res id="btnRunSolver"              tr="Run Solver"/>
+		<Res id="algVanillaGD"              tr="Vanilla GD"/>
+		<Res id="algAdaptiveGD"             tr="Adaptive GD (coming soon)"/>
+		<Res id="algMomentum"               tr="Momentum (coming soon)"/>
+		<Res id="costVoltageDev"            tr="Voltage Deviation"/>
+		<Res id="costPowerLoss"             tr="Power Loss (coming soon)"/>
+		<Res id="costVoltLimit"             tr="Voltage Limit Violation (coming soon)"/>
+		<Res id="costReactivePenalty"       tr="Reactive Power Penalty (coming soon)"/>
+
+		<Res id="solverNotValidated"        tr="Network not validated. Please validate in the Network tab before running the solver."/>
+		<Res id="noDssScript"               tr="No DSS script loaded."/>
+		<Res id="circuitLoadError"          tr="Circuit load error:"/>
+		<Res id="noPvSystems"               tr="No PV systems found in the circuit."/>
+
+		<Res id="btnShowPlot"               tr="Show Plot"/>
+		<Res id="btnShowText"               tr="Show Text"/>
+		<Res id="plotIterAxis"              tr="Iteration"/>
+		<Res id="plotQAxis"                 tr="Q (kvar)"/>
+
+		<Res id="logBus"                    tr="Bus"/>
+		<Res id="logVPu"                    tr="V (pu)"/>
+		<Res id="logStatus"                 tr="Status"/>
+		<Res id="logHigh"                   tr="HIGH"/>
+		<Res id="logLow"                    tr="LOW"/>
+		<Res id="logOptimization"           tr="Optimization"/>
+		<Res id="logIter"                   tr="Iter"/>
+		<Res id="logCost"                   tr="Cost"/>
+		<Res id="logInitialVoltages"        tr="Initial voltages (Q = 0 kvar)"/>
+		<Res id="logFinalVoltages"          tr="Final voltages"/>
+		<Res id="logConverged"              tr="Converged at iteration"/>
+		<Res id="logDssError"               tr="DSS error:"/>
+	</Translations>
+</DevRes>

@@ -1,0 +1,2269 @@
+#LyX file created by tex2lyx 2.5
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/murat/Documents/documents/projects/Apollo/01_06_SREES/Projekat/test/
+\textclass book
+\begin_preamble
+\PassOptionsToPackage{croatian}{babel}
+\usepackage{babel}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{bigstrut}
+\usepackage{amsfonts}
+\usepackage{datetime}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{pdflscape}
+\pgfplotsset{compat=1.16}
+\usepackage{nomencl}
+\usetikzlibrary{automata, positioning, arrows.meta}
+\usepackage{caption}
+\captionsetup{justification=centering}
+
+
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}
+\fancyhf{}
+
+\usepackage{array}
+
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  showstringspaces=false,
+  aboveskip=1em,
+  belowskip=1em,
+  captionpos=b,
+}
+\lstdefinestyle{shell}{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  backgroundcolor=\color{gray!5},
+  breaklines=true,
+  showstringspaces=false
+}
+\captionsetup[lstlisting]{
+  font=footnotesize,
+  labelfont=bf
+}
+\captionsetup[figure]{
+  font=footnotesize,
+  labelfont=bf
+}
+
+\setlength{\parskip}{0.6em}
+
+
+\renewcommand{\bibsection}{\chapter{\bibname}}
+\addto\captionscroatian{%
+  \renewcommand{\bibname}{Literatura}
+  }
+
+
+\titleformat{\chapter}[hang]{\normalfont\Large\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+
+
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}
+\AtBeginDocument{\addtocontents{lof}{\protect\thispagestyle{empty}}}
+\AtBeginDocument{\addtocontents{lot}{\protect\thispagestyle{empty}}}
+
+
+\addto\captionscroatian{%
+  \renewcommand{\bibname}{Literatura}
+  \renewcommand{\tablename}{Tabela}
+  \renewcommand{\nomname}{Popis oznaka}
+  \renewcommand{\indexname}{Indeks pojmova}
+  \renewcommand{\lstlistingname}{Program}
+}
+\addto\captionscroatian{\renewcommand{\listtablename}{Popis tabela}}
+
+
+\end_preamble
+\use_default_options false
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children no
+\language croatian
+\language_package default
+\inputencoding utf8
+\fontencoding default
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref false
+\pdf_pdfusetitle 0
+\papersize a4
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\biblio_options square,sort
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\crossref_package prettyref
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0pt
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics 
+	filename assets/etf_logo.pdf
+	width 15text%
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.3cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+scshape
+\end_layout
+
+\end_inset
+
+ Univerzitet u Sarajevu
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.15cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+scshape
+\end_layout
+
+\end_inset
+
+ Elektrotehnički fakultet
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[1.8cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+color{accent}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.6cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+bfseries
+\end_layout
+
+\end_inset
+
+ Voltage-Var Control (VVC)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.2cm]
+\end_layout
+
+\end_inset
+
+ za distributivne mreže: gradient descent
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.8cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+color{accent}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+ Seminarski rad iz predmeta 
+\series bold
+SREES
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[2.5cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Large
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+bfseries
+\end_layout
+
+\end_inset
+
+ Amer Muratagić
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+ 17134
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+ Sarajevo, juli 2026.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parskip}{0em}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parskip}{0.6em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\lang croatian
+Uvod
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Regulacija napona distributivnih elektroenergetskih mreža tradicionalno se najčešće vršila pomoću transformatora sa promjenom odnosa transformacije pod opterećenjem i kondenzatorskih baterija. Osnovni razlog za ovakav pristup jeste to što su distributivne mreže ranije uglavnom bile pasivni sistemi, u kojima je tok snage išao od napojne mreže prema potrošačima.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Povećanjem broja solarnih sistema ova pretpostavka više ne važi uvijek. U periodima velike proizvodnje iz PV sistema i malog lokalnog opterećenja može doći do obrnutog toka snage prema napojnoj mreži. Posljedica toga je porast napona na pojedinim dijelovima distributivne mreže.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Savremeni PV inverteri mogu, pored aktivne snage 
+\begin_inset Formula $P$
+\end_inset
+
+, upravljati i reaktivnom snagom 
+\begin_inset Formula $Q$
+\end_inset
+
+. Zbog toga se mogu koristiti za regulaciju napona u mreži. Osnovna ideja Volt-VAR kontrole je da se promjenom reaktivne snage PV invertera utiče na naponsko stanje mreže i smanji odstupanje napona od nominalne vrijednosti.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+U ovom radu problem Volt-VAR kontrole posmatra se kao optimizacijski problem. Potrebno je pronaći vrijednosti reaktivnih snaga PV sistema tako da se naponi u mreži približe vrijednosti od 
+\begin_inset Formula $1$
+\end_inset
+
+ p.j., uz poštovanje ograničenja invertera. Pošto veza između reaktivne snage i napona zavisi od toka snage kroz cijelu mrežu, rješenje se traži numerički, metodom gradijentnog spusta.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Cilj rada
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Cilj rada je projektovati i implementirati desktop aplikaciju 
+\series bold
+Volt-VAR Descent
+\series default
+, koja omogućava analizu Volt-VAR kontrole u distributivnim mrežama sa PV sistemima.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Aplikacija omogućava učitavanje OpenDSS modela mreže, validaciju modela, podešavanje parametara optimizacije i pokretanje algoritma gradijentnog spusta. Za svaku promjenu reaktivne snage koristi se OpenDSS rješavač toka snage preko biblioteke 
+\family typewriter
+dss_capi
+\family default
+, a gradijent funkcije troška računa se numerički.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Rezultati optimizacije prikazuju se tekstualno i grafički. Tekstualni prikaz sadrži početne i konačne napone, vrijednosti funkcije troška i promjene reaktivnih snaga kroz iteracije. Grafički prikaz prikazuje promjenu reaktivne snage 
+\begin_inset Formula $Q$
+\end_inset
+
+ za svaki PV sistem tokom rada algoritma.
+\end_layout
+
+\begin_layout Chapter
+
+\lang croatian
+Alati i tehnologije
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Aplikacija je implementirana u C++-u, grafički interfejs je izrađen pomoću natID okvira, a za numeričke podatke korištene su natID guste matrice. Za rješavanje toka snage koristi se OpenDSS, dok je izgradnja projekta organizovana pomoću CMake-a.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pregled korištenih tehnologija
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:tehnologije"
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\arraystretch}{1.25}
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="none" valignment="top" special="L{3.2cm}">
+<column alignment="none" valignment="top" special="L{3cm}">
+<column alignment="none" valignment="top" special="L{8.3cm}|">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+
+\series bold
+Komponenta
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+
+\series bold
+Vrsta
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+
+\series bold
+Namjena u projektu
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+OpenDSS / 
+\family typewriter
+dss_capi
+\family default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Rješavač toka snage 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Učitavanje OpenDSS modela mreže i rješavanje toka snage tokom optimizacije. 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+natID 
+\family typewriter
+natGUI
+\family default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+GUI okvir 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Izrada grafičkog interfejsa aplikacije. 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+natID 
+\family typewriter
+natPlot
+\family default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Grafički prikaz 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Prikaz promjene reaktivne snage 
+\begin_inset Formula $Q$
+\end_inset
+
+ kroz iteracije. 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+natID 
+\family typewriter
+dense::DblMatrix
+\family default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Numeričke matrice 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Čuvanje napona, gradijenta i historije vrijednosti 
+\begin_inset Formula $Q$
+\end_inset
+
+. 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+CMake 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Sistem izgradnje 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang croatian
+Konfiguracija projekta i povezivanje potrebnih biblioteka. 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+OpenDSS i 
+\family typewriter
+dss_capi
+\family default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+OpenDSS je alat namijenjen za modelovanje i simulaciju distributivnih elektroenergetskih mreža. U ovom projektu koristi se za učitavanje 
+\family typewriter
+.dss
+\family default
+ modela i rješavanje tokova snage.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Pošto je aplikacija pisana u C++-u, komunikacija sa OpenDSS-om ostvarena je preko biblioteke 
+\family typewriter
+dss_capi
+\family default
+. Na taj način aplikacija može izvršavati DSS komande, mijenjati vrijednosti reaktivne snage PV sistema i očitavati napone sabirnica bez pokretanja posebne OpenDSS aplikacije.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+natID SDK
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Za izradu grafičkog interfejsa korišten je natID SDK. Pomoću 
+\family typewriter
+natGUI
+\family default
+ komponente kreirani su osnovni elementi aplikacije, kao što su glavni prozor, tabovi, dugmad, tekstualni editor, kontrole za unos parametara i prikaz rezultata.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Za grafički prikaz rezultata korišten je 
+\family typewriter
+natPlot
+\family default
+. On se koristi u 
+\shape italic
+Solver
+\shape default
+ tabu za crtanje promjene reaktivne snage 
+\begin_inset Formula $Q$
+\end_inset
+
+ kroz iteracije algoritma. Numerički podaci, kao što su naponi, gradijent i historija vrijednosti 
+\begin_inset Formula $Q$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Sistem izgradnje
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Projekat koristi CMake za izgradnju aplikacije. U CMake konfiguraciji uključeni su potrebni natID moduli, definisan je izvršni cilj aplikacije i povezane su biblioteke potrebne za rad sa OpenDSS-om.
+\end_layout
+
+\begin_layout Chapter
+
+\lang croatian
+Arhitektura i implementacija aplikacije
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Struktura projekta
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Izvorni kod aplikacije organizovan je na sljedeći način:
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset listings
+lstparams "language=,caption={Struktura izvornog koda aplikacije},label={lst:struktura}"
+inline false
+status open
+
+\begin_layout Plain Layout
+VoltVarDescent/
+\end_layout
+
+\begin_layout Plain Layout
+|-- CMakeLists.txt
+\end_layout
+
+\begin_layout Plain Layout
+|-- voltVarDescent.cmake
+\end_layout
+
+\begin_layout Plain Layout
+|-- examples/               Primjeri OpenDSS feedera (1/2/3 PV)
+\end_layout
+
+\begin_layout Plain Layout
+|-- res/
+\end_layout
+
+\begin_layout Plain Layout
+`-- src/
+\end_layout
+
+\begin_layout Plain Layout
+    |-- main.cpp
+\end_layout
+
+\begin_layout Plain Layout
+    |-- Application.h
+\end_layout
+
+\begin_layout Plain Layout
+    |-- MainWindow.h         Glavni prozor
+\end_layout
+
+\begin_layout Plain Layout
+    |-- MainView.h 
+\end_layout
+
+\begin_layout Plain Layout
+    |-- DSSEngine.h
+\end_layout
+
+\begin_layout Plain Layout
+    |-- network/             Network tab (welcome, editor, summary, primjeri)
+\end_layout
+
+\begin_layout Plain Layout
+    `-- solver/               Solver tab (kontrole, tekstualni izlaz, grafikon)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+DSSEngine
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Klasa 
+\family typewriter
+DSSEngine
+\family default
+ predstavlja vezu između aplikacije i OpenDSS API-ja. Ideja je bila da ostatak aplikacije ne komunicira direktno sa 
+\family typewriter
+dss_capi
+\family default
+ bibliotekom, nego da se sav rad sa OpenDSS-om izdvoji u jednu klasu. Na taj način je kod pregledniji, jer GUI dio aplikacije ne mora poznavati detalje OpenDSS API-ja.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Najvažniji dio klase je metoda 
+\family typewriter
+runVanillaGD
+\family default
+, u kojoj je implementiran algoritam gradijentnog spusta za Volt-VAR kontrolu. Time je kompletan optimizacijski dio aplikacije zadržan na jednom mjestu: podešavanje PV sistema, pokretanje toka snage, računanje funkcije troška, procjena gradijenta i zapisivanje rezultata po iteracijama.
+\end_layout
+
+\begin_layout Subsection
+
+\lang croatian
+Algoritam 
+\family typewriter
+runVanillaGD
+\family default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Glavni dio optimizacije implementiran je u metodi 
+\family typewriter
+runVanillaGD
+\family default
+. Metoda kao ulaz prima listu PV sistema koji učestvuju u regulaciji i parametre solvera: maksimalan broj iteracija, maksimalnu promjenu 
+\begin_inset Formula $Q$
+\end_inset
+
+ po iteraciji, brzinu učenja, korak za numeričku procjenu gradijenta, maksimalnu dozvoljenu reaktivnu snagu i toleranciju konvergencije.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Prije početka optimizacije svi PV sistemi se postavljaju na 
+\begin_inset Formula $Q=0$
+\end_inset
+
+. Zatim se računaju početni naponi i početna vrijednost funkcije troška. Na taj način se dobija referentno stanje mreže prije djelovanja Volt-VAR kontrole.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+U svakoj iteraciji algoritam numerički procjenjuje uticaj svakog PV sistema. Za jedan PV sistem prvo se reaktivna snaga pomjeri za 
+\begin_inset Formula $+\varepsilon$
+\end_inset
+
+, nakon čega se riješi tok snage i izračuna nova vrijednost troška 
+\begin_inset Formula $C^+$
+\end_inset
+
+. Zatim se za isti PV sistem reaktivna snaga pomjeri za 
+\begin_inset Formula $-\varepsilon$
+\end_inset
+
+, ponovo se riješi tok snage i dobije se vrijednost 
+\begin_inset Formula $C^-$
+\end_inset
+
+. Na osnovu ove dvije vrijednosti komponenta gradijenta računa se centralnom razlikom:
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Formula \begin{equation}
+   g_j \approx \frac{C^+ - C^-}{2\varepsilon}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Nakon što se ovako odrede komponente gradijenta za sve PV sisteme, reaktivne snage se ažuriraju u smjeru smanjenja funkcije troška. Pri tome se promjena 
+\begin_inset Formula $Q$
+\end_inset
+
+ u jednoj iteraciji ograničava na maksimalni dozvoljeni korak 
+\begin_inset Formula $\Delta_{\max}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Poslije ažuriranja svih PV sistema, ponovo se rješava tok snage sa novim vrijednostima 
+\begin_inset Formula $Q$
+\end_inset
+
+, računa se nova vrijednost funkcije troška i trenutno stanje se zapisuje u historiju. Postupak se ponavlja dok najveća promjena reaktivne snage ne postane manja od zadane tolerancije ili dok se ne dostigne maksimalan broj iteracija.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Glavni prozor i tokovi podataka
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Ulazni dio u aplikaciju predstavlja 
+\family typewriter
+main.cpp
+\family default
+, gdje se inicijalizira natID aplikacija i otvara glavni prozor koji sadrži dva osnovna taba: 
+\shape italic
+Network
+\shape default
+ i 
+\shape italic
+Solver
+\shape default
+.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Network tab
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\shape italic
+Network
+\shape default
+ tab služi za unos, učitavanje i validaciju OpenDSS modela mreže. Korisniku omogućava tri načina rada: početak od praznog editora, otvaranje postojeće 
+\family typewriter
+.dss
+\family default
+ datoteke ili učitavanje jednog od unaprijed pripremljenih primjera.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Nakon odabira mreže, korisnik može pregledati i po potrebi izmijeniti OpenDSS skriptu u tekstualnom editoru. Klikom na dugme za validaciju, skripta se prosljeđuje OpenDSS validatoru. Ako je model ispravan, aplikacija prikazuje sažetak mreže, odnosno broj sabirnica, čvorova, vodova, opterećenja, transformatora, kondenzatora, generatora i PV sistema.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Validacija mreže je obavezan korak prije pokretanja optimizacije. Ako korisnik nakon validacije napravi bilo kakvu izmjenu u skripti, prethodna validacija se poništava, a 
+\shape italic
+Solver
+\shape default
+ tab se ponovo zaključava. Na ovaj način se sprječava pokretanje algoritma nad modelom koji više ne odgovara validnoj verziji mreže.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Solver tab
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\shape italic
+Solver
+\shape default
+ tab služi za podešavanje i pokretanje optimizacijskog algoritma. Ovaj dio aplikacije postaje dostupan tek nakon što je mreža uspješno validirana u 
+\shape italic
+Network
+\shape default
+ tabu, čime se osigurava da solver uvijek radi nad ispravnim OpenDSS modelom.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+U okviru 
+\shape italic
+Solver
+\shape default
+ taba korisnik može podesiti numeričke parametre gradijentnog spusta, kao što su maksimalan broj iteracija, brzina učenja, maksimalni korak promjene reaktivne snage, korak za procjenu gradijenta i granica reaktivne snage invertera.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Nakon završetka optimizacije, rezultati se mogu prikazati na dva načina. Prvi prikaz je tekstualni izvještaj, koji sadrži početne i konačne napone, tok optimizacije i vrijednosti reaktivnih snaga po iteracijama. Drugi prikaz je dijagram na kojem je prikazana promjena 
+\begin_inset Formula $Q$
+\end_inset
+
+ kroz iteracije, pri čemu se za svaki PV sistem crta posebna kriva. Time korisnik može lakše uočiti da li algoritam konvergira i kako se pojedini PV sistemi ponašaju tokom optimizacije.
+\end_layout
+
+\begin_layout Chapter
+
+\lang croatian
+Grafički interfejs i uputstvo za korištenje
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Ovo poglavlje prikazuje osnovni tok rada kroz aplikaciju. Korisnik prvo učitava ili unosi OpenDSS model mreže, zatim ga validira, a nakon uspješne validacije prelazi na podešavanje i pokretanje solvera. Interfejs je podijeljen na dva glavna taba: 
+\shape italic
+Network
+\shape default
+ i 
+\shape italic
+Solver
+\shape default
+.
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Network tab
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Pri pokretanju aplikacije korisniku se prikazuje 
+\shape italic
+Network
+\shape default
+ tab. Ovaj tab predstavlja početnu tačku rada, jer se u njemu bira način unosa mreže. Korisnik može početi od praznog editora, otvoriti postojeću 
+\family typewriter
+.dss
+\family default
+ datoteku ili učitati jedan od pripremljenih primjera.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename assets/network_tab.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Početni prikaz
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:network-tab"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Jedna od prednosti aplikacije je mogućnost brzog pokretanja ugrađenih testnih primjera. Na taj način korisnik ne mora odmah pisati vlastiti OpenDSS model, nego može provjeriti rad aplikacije nad već pripremljenim mrežama sa jednim, dva ili tri PV sistema.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename assets/network_tab_example.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Odabir ugrađenog primjera
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:network-tab-example"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Nakon učitavanja primjera ili otvaranja datoteke, OpenDSS skripta se prikazuje u tekstualnom editoru. Korisnik može pregledati model, izmijeniti parametre mreže i zatim pokrenuti validaciju. Klikom na dugme za validaciju, skripta se prosljeđuje OpenDSS-u, gdje se provjerava da li je model moguće ispravno učitati i riješiti.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Ako je validacija uspješna, aplikacija prikazuje kratak sažetak mreže. U njemu se nalaze osnovni podaci o modelu, kao što su broj sabirnica, čvorova, vodova, opterećenja, transformatora, kondenzatora, generatora i PV sistema. Ako korisnik nakon validacije promijeni sadržaj skripte, validacija se poništava i 
+\shape italic
+Solver
+\shape default
+ tab se zaključava dok se mreža ponovo ne validira.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename assets/network_tab_editor.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Editor OpenDSS skripte i sažetak mreže
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:network-tab-editor"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang croatian
+Solver tab
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Nakon uspješne validacije mreže, korisniku postaje dostupan sadržaj 
+\shape italic
+Solver
+\shape default
+ taba. U ovom dijelu aplikacije podešavaju se parametri optimizacije i pokreće algoritam gradijentnog spusta.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Korisnik može podesiti maksimalan broj iteracija, brzinu učenja, maksimalni korak promjene reaktivne snage, korak za numeričku procjenu gradijenta, granicu reaktivne snage invertera i toleranciju konvergencije. Nakon podešavanja parametara, solver se pokreće klikom na dugme 
+\shape italic
+Pokreni solver
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Rezultati se prvo prikazuju u tekstualnom obliku. Izvještaj sadrži početne napone, vrijednosti funkcije troška kroz iteracije, promjene reaktivne snage PV sistema i konačno stanje mreže nakon optimizacije.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename assets/solver_text.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tekstualni prikaz rezultata
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:solver-text"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Pored tekstualnog izvještaja, aplikacija omogućava i grafički prikaz promjene reaktivne snage. Na dijagramu je za svaki PV sistem prikazana posebna kriva, i na osnovu ovog prikaza može se vidjeti da li se vrijednosti 
+\begin_inset Formula $Q$
+\end_inset
+
+ stabiliziraju i da li algoritam konvergira prema konačnom rješenju.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang croatian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename assets/solver_plot.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafički prikaz promjene reaktivne snage
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:solver-plot"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\lang croatian
+Zaključak
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+U ovom radu implementirana je aplikacija 
+\series bold
+Volt-VAR Descent
+\series default
+, namijenjena za određivanje Volt-VAR kontrole u distributivnim mrežama sa PV sistemima. Aplikacija je implementirana kao C++ desktop aplikacija i omogućava korisniku da učita OpenDSS model mreže, validira ga, podesi parametre optimizacije i pokrene algoritam gradijentnog spusta.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Za rješavanje toka snage korišten je OpenDSS preko biblioteke 
+\family typewriter
+dss_capi
+\family default
+, dok je optimizacijski dio implementiran unutar aplikacije. Gradijent funkcije troška računa se numerički tako što se za svaki PV sistem posmatra uticaj male promjene reaktivne snage na mrežu. Na osnovu izračunatog gradijenta mijenjaju se vrijednosti reaktivne snage 
+\begin_inset Formula $Q$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Implementirano rješenje pokazuje kako se jednostavan algoritam gradijentnog spusta može koristiti za interaktivno određivanje Volt-VAR kontrole. Iako korišteni pristup nije najbrži za veće mreže, jer zahtijeva više računanja tokova snage u svakoj iteraciji, prednost mu je jednostavna implementacija i mogućnost rada nad proizvoljnim OpenDSS modelom bez dodatnog izvođenja analitičkih osjetljivosti.
+\end_layout
+
+\begin_layout Standard
+
+\lang croatian
+Aplikacija ispunjava osnovne zahtjeve rada: koristi C++, natID GUI, natID guste matrice za numeričke podatke, CMake konfiguraciju i podršku za višeplatformsko pokretanje. Kao moguća dalja unapređenja ostaju implementacija dodatnih funkcija troška, dodatne verzije algoritma gradijentnog spusta i proširenje testiranja na složenije distributivne mreže.
+\end_layout
+
+\begin_layout Bibliography
+
+\lang croatian
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "sensitivity_vvc"
+literal "false"
+
+\end_inset
+
+ R. A. Jabr and I. Džafić, 
+\shape italic
+Sensitivity-based discrete coordinate-descent for Volt/VAr control in distribution networks
+\shape default
+, IEEE Transactions on Power Systems, 2016.
+\end_layout
+
+\begin_layout Bibliography
+
+\lang croatian
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "realtime_gfm_vvc"
+literal "false"
+
+\end_inset
+
+ R. Wagle, P. Sharma, C. Sharma, M. Amin and F. Gonzalez-Longatt, 
+\shape italic
+Real-time Volt-Var control of grid forming converters in DER-enriched distribution network
+\shape default
+, Frontiers in Energy Research, 2023.
+\end_layout
+
+\begin_layout Bibliography
+
+\lang croatian
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "opendss"
+literal "false"
+
+\end_inset
+
+ EPRI, 
+\shape italic
+OpenDSS – Open Distribution System Simulator
+\shape default
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+https://www.epri.com/OpenDSS
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Bibliography
+
+\lang croatian
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "dsscapi"
+literal "false"
+
+\end_inset
+
+ DSS-Extensions, 
+\shape italic
+dss_capi – OpenDSS C API
+\shape default
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+https://github.com/dss-extensions/dss_capi
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

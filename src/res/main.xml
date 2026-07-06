@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<DevRes>
+	<Images>
+		<Res id="network"   path=":Icons/network.png"/>
+		<Res id="solver"    path=":Icons/solver.png"/>
+		<Res id="start"     path=":Icons/new.png"/>
+		<Res id="open"      path=":Icons/open.png"/>
+		<Res id="sample"    path=":Icons/example.png"/>
+		<Res id="validate"  path=":Icons/validate.png"/>
+		<Res id="validated" path=":Icons/validated.png"/>
+	</Images>
+</DevRes>
