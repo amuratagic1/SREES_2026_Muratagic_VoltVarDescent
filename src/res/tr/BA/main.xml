@@ -70,7 +70,7 @@
 		<Res id="logVPu"                    tr="V (p.j.)"/>
 		<Res id="logStatus"                 tr="Status"/>
 		<Res id="logHigh"                   tr="VISOKO"/>
-		<Res id="logLow"                    tr="NIZKO"/>
+		<Res id="logLow"                    tr="NISKO"/>
 		<Res id="logOptimization"           tr="Optimizacija"/>
 		<Res id="logIter"                   tr="Iter"/>
 		<Res id="logCost"                   tr="Trošak"/>

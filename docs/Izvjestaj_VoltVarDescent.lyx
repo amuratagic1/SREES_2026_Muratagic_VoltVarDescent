@@ -242,7 +242,7 @@ par
 
 
 \begin_inset Graphics
-	filename test/assets/etf_logo.pdf
+	filename latex/assets/etf_logo.pdf
 	width 15text%
 
 \end_inset
@@ -984,7 +984,7 @@ U ovom radu problem Volt-VAR kontrole posmatra se kao optimizacijski problem.
 \begin_inset Formula $1$
 \end_inset
 
- p.j.,
+ p.u.,
  uz poštovanje ograničenja invertera.
  Pošto veza između reaktivne snage i napona zavisi od toka snage kroz cijelu mrežu,
  rješenje se traži numerički,
@@ -1084,9 +1084,9 @@ name "tab:tehnologije"
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
 <features tabularvalignment="middle">
-<column alignment="none" valignment="top" special="L{3.2cm}">
+<column alignment="none" valignment="top" special="L{3.4cm}">
 <column alignment="none" valignment="top" special="L{3cm}">
-<column alignment="none" valignment="top" special="L{8.3cm}|">
+<column alignment="none" valignment="top" special="L{8.1cm}|">
 <row>
 <cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1780,7 +1780,7 @@ centering
 
  
 \begin_inset Graphics
-	filename test/assets/network_tab.png
+	filename latex/assets/network_tab.png
 	width 100text%
 
 \end_inset
@@ -1838,7 +1838,7 @@ centering
 
  
 \begin_inset Graphics
-	filename test/assets/network_tab_example.png
+	filename latex/assets/network_tab_example.png
 	width 100text%
 
 \end_inset
@@ -1918,7 +1918,7 @@ centering
 
  
 \begin_inset Graphics
-	filename test/assets/network_tab_editor.png
+	filename latex/assets/network_tab_editor.png
 	width 100text%
 
 \end_inset
@@ -2004,7 +2004,7 @@ centering
 
  
 \begin_inset Graphics
-	filename test/assets/solver_text.png
+	filename latex/assets/solver_text.png
 	width 100text%
 
 \end_inset
@@ -2066,7 +2066,7 @@ centering
 
  
 \begin_inset Graphics
-	filename test/assets/solver_plot.png
+	filename latex/assets/solver_plot.png
 	width 100text%
 
 \end_inset
