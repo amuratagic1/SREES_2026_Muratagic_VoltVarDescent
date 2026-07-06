@@ -1,0 +1,1 @@
+Vrijeme potrebno da se zavrsi prezentacija: ~5min
