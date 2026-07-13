@@ -14,6 +14,8 @@ class ExamplePickerView : public gui::View
     CardButton          _btnSimple;
     CardButton          _btnMedium;
     CardButton          _btnComplex;
+    CardButton          _btnTapCapOn;
+    CardButton          _btnTapCapOff;
     gui::VerticalLayout _vl;
     gui::Timer          _closeTimer;
     std::function<void(int, gui::Window*)> _onPick;
@@ -40,14 +42,14 @@ protected:
     {
         gui::View::measure(ci);
         ci.minHor = 420;
-        ci.minVer = 300;
+        ci.minVer = 460;
     }
 
     void reMeasure(gui::CellInfo& ci) override
     {
         gui::View::reMeasure(ci);
         ci.minHor = 420;
-        ci.minVer = 300;
+        ci.minVer = 460;
     }
 
 public:
@@ -56,15 +58,19 @@ public:
     , _btnSimple(trCStr(exampleScript(0).titleKey), ":sample", 0.6f, true, 58, true)
     , _btnMedium(trCStr(exampleScript(1).titleKey), ":sample", 0.6f, true, 58, true)
     , _btnComplex(trCStr(exampleScript(2).titleKey), ":sample", 0.6f, true, 58, true)
+    , _btnTapCapOn(trCStr(exampleScript(3).titleKey), ":sample", 0.6f, true, 58, true)
+    , _btnTapCapOff(trCStr(exampleScript(4).titleKey), ":sample", 0.6f, true, 58, true)
     , _vl(9)
     , _closeTimer(this, 0.05f, false)
     , _onPick(std::move(onPick))
     {
         _lblHint.setFont(gui::Font::ID::SystemNormal);
 
-        _btnSimple.onClick([this]()  { pick(0); });
-        _btnMedium.onClick([this]()  { pick(1); });
-        _btnComplex.onClick([this]() { pick(2); });
+        _btnSimple.onClick([this]()    { pick(0); });
+        _btnMedium.onClick([this]()    { pick(1); });
+        _btnComplex.onClick([this]()   { pick(2); });
+        _btnTapCapOn.onClick([this]()  { pick(3); });
+        _btnTapCapOff.onClick([this]() { pick(4); });
 
         _closeTimer.onTimer([this]()
         {
@@ -79,6 +85,10 @@ public:
         _vl << _btnMedium;
         _vl.appendSpace(8);
         _vl << _btnComplex;
+        _vl.appendSpace(8);
+        _vl << _btnTapCapOn;
+        _vl.appendSpace(8);
+        _vl << _btnTapCapOff;
         setLayout(&_vl);
     }
 };

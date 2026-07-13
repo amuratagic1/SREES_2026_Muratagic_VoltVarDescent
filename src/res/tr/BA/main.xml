@@ -18,6 +18,8 @@
 		<Res id="exSimple"                  tr="Jednostavan — 1 PV"/>
 		<Res id="exMedium"                  tr="Srednji — 2 PV"/>
 		<Res id="exComplex"                 tr="Kompleksan — 3 PV"/>
+		<Res id="exTapCapOn"                tr="Regulacija napona i kapaciteta — Uključeno"/>
+		<Res id="exTapCapOff"               tr="Regulacija napona i kapaciteta — Isključeno"/>
 
 		<Res id="btnLoad"                   tr="Učitaj"/>
 		<Res id="btnSave"                   tr="Sačuvaj"/>

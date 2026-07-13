@@ -18,6 +18,8 @@
 		<Res id="exSimple"                  tr="Simple — 1 PV"/>
 		<Res id="exMedium"                  tr="Medium — 2 PV"/>
 		<Res id="exComplex"                 tr="Complex — 3 PV"/>
+		<Res id="exTapCapOn"                tr="Tap + Cap Control — On"/>
+		<Res id="exTapCapOff"               tr="Tap + Cap Control — Off"/>
 
 		<Res id="btnLoad"                   tr="Load"/>
 		<Res id="btnSave"                   tr="Save"/>
