@@ -16,13 +16,19 @@ class ExamplePickerView : public gui::View
     CardButton          _btnComplex;
     gui::VerticalLayout _vl;
     gui::Timer          _closeTimer;
-    std::function<void(int)> _onPick;
+    std::function<void(int, gui::Window*)> _onPick;
     int _pickedIndex = -1;
 
     // Closing the containing window must not happen synchronously inside a CardButton's
     // own click handler: that button is still mid-dispatch on the call stack, and
     // destroying it here crashes on the next paint. Deferring via a one-shot timer lets
     // the click event finish unwinding first.
+    //
+    // Note this timer is itself a member of this view. Its callback must NOT close (and
+    // thereby destroy) this view/timer either -- that would repeat the same crash one
+    // level deeper, destroying the timer while its own fire-callback is still on the
+    // stack. So it only hands the pick + window off to the caller, which closes the
+    // window later via a timer that it owns (and that outlives this view).
     void pick(int index)
     {
         _pickedIndex = index;
@@ -45,7 +51,7 @@ protected:
     }
 
 public:
-    ExamplePickerView(std::function<void(int)> onPick)
+    ExamplePickerView(std::function<void(int, gui::Window*)> onPick)
     : _lblHint(tr("exPickerHint"))
     , _btnSimple(trCStr(exampleScript(0).titleKey), ":sample", 0.6f, true, 58, true)
     , _btnMedium(trCStr(exampleScript(1).titleKey), ":sample", 0.6f, true, 58, true)
@@ -63,9 +69,7 @@ public:
         _closeTimer.onTimer([this]()
         {
             _closeTimer.stop();
-            if (_onPick) _onPick(_pickedIndex);
-            if (auto* wnd = getContainingWindow())
-                wnd->close();
+            if (_onPick) _onPick(_pickedIndex, getContainingWindow());
         });
 
         _vl << _lblHint;

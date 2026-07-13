@@ -21,13 +21,21 @@ class NetworkView : public gui::View
     EditorPanel       _editor;
     gui::ViewSwitcher _switcher;
     gui::GridLayout   _gl;
+    gui::Timer        _closePickerTimer;
+    gui::Window*      _pPickerWndToClose = nullptr;
 
     void showExamplePicker()
     {
-        auto onPick = [this](int index)
+        auto onPick = [this](int index, gui::Window* pickerWnd)
         {
             _editor.loadText(exampleScript(index).script);
             _switcher.showView(1);
+
+            // Close the picker window from a timer owned by this (long-lived) view,
+            // not one owned by the picker itself -- see the comment in
+            // ExamplePickerView::pick() for why closing it from its own timer crashes.
+            _pPickerWndToClose = pickerWnd;
+            _closePickerTimer.start();
         };
 
         gui::Panel::showModal<ExamplePickerView>(
@@ -43,7 +51,18 @@ public:
     NetworkView()
     : _switcher(2)
     , _gl(1, 1)
+    , _closePickerTimer(this, 0.05f, false)
     {
+        _closePickerTimer.onTimer([this]()
+        {
+            _closePickerTimer.stop();
+            if (_pPickerWndToClose)
+            {
+                _pPickerWndToClose->close();
+                _pPickerWndToClose = nullptr;
+            }
+        });
+
         _switcher.addView(&_welcome, true);
         _switcher.addView(&_editor,  false);
 
