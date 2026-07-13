@@ -57,7 +57,17 @@ VoltVarDescent/
 
 - **CMake** 3.18 or newer and a C++ toolchain (Xcode on macOS, Visual Studio on Windows).
 - **natID SDK** installed at `~/natID.SDK` (provides `natGUI` and `natPlot`).
-- **dss_capi** installed at `~/dss_capi` (macOS) or `~/dss_capi/win_x64` (Windows), with the shared libraries under the platform `lib/` directory.
+- **dss_capi** installed at `~/dss_capi` (macOS) or `~/dss_capi/win_x64` (Windows), with the shared libraries under the platform `lib/` directory — see below for prebuilt binaries.
+
+### Getting dss_capi
+
+Prebuilt `dss_capi` 0.14.5 binaries are attached to this repo's [`deps-dss_capi` release](https://github.com/amuratagic1/SREES_2026_Muratagic_VoltVarDescent/releases/tag/deps-dss_capi).
+
+1. Download the archive matching your platform: `dss_capi_0.14.5_darwin_arm64.tar.gz`, `dss_capi_0.14.5_darwin_x64.tar.gz`, or `dss_capi_0.14.5_win_x64.zip`.
+2. Extract it so the final layout is:
+   - **macOS**: `~/dss_capi/include/*.h` and `~/dss_capi/lib/darwin_arm64/` (or `darwin_x64/`) containing `libdss_capi.dylib` + `libklusolvex.dylib`
+   - **Windows**: `~/dss_capi/win_x64/include/*.h` and `~/dss_capi/win_x64/lib/win_x64/` containing `dss_capi.dll`, `dss_capi.lib`, and `klusolvex.dll`
+3. (Re)run `cmake ..` in `xbuild/` so CMake picks up the new paths.
 
 ### Configure and build
 
